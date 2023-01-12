@@ -21,5 +21,10 @@ namespace AbstractSample
         {
             return (width + height) * 2;
         }
+        public override void GetBounds(out float w,out float h) 
+        {
+            w = width;
+            h = height;
+        }
     }
 }
